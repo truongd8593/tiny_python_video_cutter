@@ -3,15 +3,17 @@
 Source code based on a discussion in [StackOverflow](https://stackoverflow.com/questions/37317140/cutting-out-a-portion-of-video-python)
 
 # Setup project in Pycharm:
+- Download & install `Python 3.8.5`.
+- Download & install `Pycharm`.
 - Configure virtual env in Pycharm. You are done when a folder named ```venv``` is created under your project's root folder.
-- Windows: Run this command
+- Run this command
 ```
-"venv\Scripts\pip.exe" install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 # How to use?
 - Copy your video to the project's root folder.
-- Select ```start_time```, ```end_time``` in ```src\test.py```. Run this command
+- Run this command
 ```
-"venv\Scripts\python.exe" src\test.py
+python src\app.py <start_time_in_minute> <end_time_in_minute>
 ```
